@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="resume (1).png" alt="Resumebuilder.com">
+      <b><h1>Dynamic<br>
+        Resume Builder</h1></b>
+    </div>
+    <ul>
+      <li class="item1"><a href="#page1">Home</a></li>
+      <li class="item3"><a href="#page2">About</a></li>
+      <li class="item4"><a href="#page3">Contact Us</a></li>
+      
+    
+    </ul>
+  </nav>
+
+
+
+
+  <div id="page1">
+      <div id="center">
+        <div id="centerLeft">
+          <div id="topcorner">
+            <div class="h-primary">
+              <img src="resume.png" alt="logo">
+            </div>
+            <h1 class="h-primary"> Resume<br>Builder</h1>
+          </div>
+              <h2>Create Your Winning<br>Resume in Minutes.</h2>
+             <p>Our Perfect resume builder takes the hassle out of resume <br>writing .Choose from several templates and follow easy <br>prompts to create the perfect job-ready resume.</p>
+          
+        </div>
+        <div id="centerRight"><img src="office.png" alt="">
+          
+        </div>
+      </div>
+      <div id="centerBottom">
+        <button class="btn1"><a href="#resumeForm">Create Now</a></button>
+      </div>
+  </div>
+ 
+ 
+ 
+ 
+  <div id="page2">
+    <section class="services-container">
+      <h1 class="h-primary center"> About</h1>
+      <div id="services">
+        <div class="box">
+          <img src="quality.png" alt="one">
+          <h2 class="h-secondary center">High-quality Resume content</h2>
+          <p class="center">Our resume is a well-crafted document that effectively showcases your qualifications, experience, and skills to potential employers</p>
+        </div>
+        <div class="box">
+          <img src="suggestions.png" alt="one">
+          <h2 class="h-secondary center">Offers Helpful Suggestions</h2>
+          <p class="center">We offer many helpful suggestions that a customer needed in regarding the resume building, course selection and many more..</p>
+        </div>
+        <div class="box">
+          <img src="productivity .png" alt="one">
+          <h2 class="h-secondary center">Resumes Productivity</h2>
+          <p class="center">Our Resumes significantly impact productivity by efficiently conveying a candidate's qualifications and supporting career growth.</p>
+        </div>
+        
+      </div>
+    </section>
+  </div>
+ 
+    <div class="container">
+        <h1>Create Your ATS friendly Resume</h1>
+        <form id="resumeForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your emailId">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your mobile number">
+
+            <label for="summary">Professional Summary:</label>
+            <textarea id="summary" name="summary" rows="4" required placeholder="Enter your professional role "></textarea>
+
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" rows="6" required placeholder="Enter your professional experience"></textarea>
+
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" rows="4" required placeholder="Enter your education background"></textarea>
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" rows="4" required placeholder="Enter your Skills"></textarea>
+
+            <button type="button" onclick="generateResume()">Generate</button>
+        </form>
+
+        <div id="resumePreview">
+            <h2>Resume Preview</h2>
+            <div id="resumeContent">
+                <!-- The generated resume content will appear here -->
+            </div>
+            <button id="downloadButton" style="display:none;" onclick="downloadResume()">Download</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div id="page3">
+    <section class="services-container">
+      <h1 class="h-primary center"> Contact Us</h1>
+      <div id="services">
+        <div class="box">
+          <img src="gmail.png" alt="one">
+          <h2 class="h-secondary center">Gmail</h2>
+          <p>aityriteshraj@gmail.com <br>reddyhemanth889@gmail.com <br>annepakajagadish@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    </div>
+
+    <footer>
+      <p class="text-footer"> copyright &copy; 2024 - www.DynamicResumeBuilder.com - All Rights Reserved </p>
+    </footer>
+</body>
+</html>
+
+ 
+  
+</body>
+</html>

@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+  
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    height: 67px;
+    background: deepskyblue;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo h1{
+    font-size: .8em;
+    text-align: left;
+    font-weight: bolder;
+}
+#logo img{
+    height: 60px;
+    margin: 3px 6px;
+
+}
+
+
+#navbar ul{
+    display: flex;
+    
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#center{
+    display: flex;
+   
+    height: 70%;
+    width: 100%;
+}
+#centerLeft{
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#centerLeft h2{
+    font-size: 55px;
+}
+#centerLeft p{
+    font-size: 30px;
+    padding-top: 50px;
+}
+#centerRight img{
+    height: 567px;
+    margin: 42px 20px;
+}
+#topcorner{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 180px;
+}
+.h-primary h1{
+    font-size: 150px;
+
+}
+.h-primary img{
+    height: 150px;
+    width: 150px;
+}
+
+
+#centerBottom{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+    height: 500px;
+    
+}
+#services .box{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: deepskyblue;
+
+}
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 15px;
+
+}
+.center{
+    text-align: center;
+}
+
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 15px;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2p solid white;
+    background-color: deepskyblue;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+element.style {
+    height: 850px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+
+
+form label {
+    display: block;
+    margin-top: 40px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 37px;
+    height: 76px;
+    width: 190px;
+    font-size: 26px;
+    
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resumePreview {
+    margin-top: 37px;
+    font-size: 36px;
+    
+}
+
+#resumePreview h2{
+    text-align: center;
+}
+
+#resumeContent {
+    background-color: #f9f9f9;
+    
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.resume-header p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #777;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+.section-content {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#page3{
+    margin: 0px 550px;
+    
+    
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: deepskyblue;
+}
