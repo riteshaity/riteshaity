@@ -8,9 +8,9 @@ I have hands-on experience with **Full Stack Web Development using Django, React
 
 ## 🌐 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riteshaity/)  
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/riteshaity)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riteshaity.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riteshraj-aity-86930625a/)  
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/riteshaity_2004/)  
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A66C2?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riteshaity.github.io/Ritesh-portfolio/index.html)
 
 ---
 
@@ -32,8 +32,8 @@ I have hands-on experience with **Full Stack Web Development using Django, React
 - **[Travel Booking App](https://github.com/riteshaity/travel_booking)**  
   Full-stack travel booking platform using Django, React, and MySQL.  
 
-- **[Portfolio Website](https://github.com/riteshaity/portfolio-website)**  
-  Interactive portfolio with animations built using React and Tailwind CSS.  
+- **[RealTime Weather App](https://github.com/riteshaity/RealtimeWeatherApp)**  
+  Realtime Weather App using OpenWeather API.  
 
 ---
 
