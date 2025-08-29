@@ -46,7 +46,6 @@ I have hands-on experience with **Full Stack Web Development using Django, React
 
 ## 📊 Leetcode Stats
 
-![LeetCode Stats](https://leetcode-stats-six.vercel.app/?username=riteshaity_2004&theme=dark)
 ![Leetcode Stats](https://leetcard.jacoblin.cool/riteshaity_2004)
 
 
