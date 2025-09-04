@@ -26,7 +26,7 @@ I have hands-on experience with **Full Stack Web Development using Django, React
 
 ## 🚀 Projects
 
-- **[AI Resume Optimizer](https://github.com/riteshaity/AI-Resume-Optimizer)**  
+- **[AI Resume Optimizer](https://github.com/riteshaity/ai-resume-analyzer)**  
   AI-powered Chrome extension that analyzes resumes & job descriptions and suggests improvements.  
 
 - **[Travel Booking App](https://github.com/riteshaity/travel_booking)**  
