@@ -1,9 +1,12 @@
 # Hi there 👋, I'm Aity Riteshraj
 
-I am a passionate **SDE | Backend & Full Stack Developer** from India. I love building scalable web applications, working on backend systems, and integrating AI solutions to solve real-world problems.  
+# Hi there 👋, I'm Aity Riteshraj
 
-I have hands-on experience with **Full Stack Web Development using Django, ReactJS, and Spring Boot**, and I am proficient in building **REST APIs with Django REST Framework**. Without saying much, see some of my works below.  
+I’m a passionate **SDE | Backend & Full Stack Developer** from India, currently working as an **intern at Mindlabs**. I enjoy building scalable web applications, developing robust backend systems, and integrating AI solutions to solve real-world problems.
 
+I have hands-on experience in **Full Stack Web Development using Django, ReactJS, and Spring Boot**, along with strong proficiency in building REST APIs with Django REST Framework.
+
+Rather than saying more, feel free to explore some of my work below 👇
 ---
 
 ## 🌐 Connect with me
