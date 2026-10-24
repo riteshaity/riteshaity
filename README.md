@@ -153,7 +153,6 @@ Live weather and forecasts for any city, with geolocation lookup. [Code →](htt
 
 | When | Role | Where |
 |---|---|---|
-| **Now** | Co-founder | Pairscale Tech |
 | **Aug 2026 – Present** | Growth Engineer | Mindlabs Cloud |
 | **Feb – Jul 2026** | Growth Engineering Intern | Mindlabs Cloud |
 | **Dec 2025 – Feb 2026** | Operations Automation Intern | Hungry Picnic, automated daily ops for 60+ vending machines |
