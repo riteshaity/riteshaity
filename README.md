@@ -181,14 +181,6 @@ Live weather and forecasts for any city, with geolocation lookup. [Code →](htt
   <a href="https://leetcode.com/u/riteshaity_2004/"><img src="https://leetcard.jacoblin.cool/riteshaity_2004?theme=light,dark&ext=heatmap" alt="LeetCode stats" /></a>
 </p>
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/riteshaity/riteshaity/output/github-snake-dark.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/riteshaity/riteshaity/output/github-snake.svg" />
-  </picture>
-</p>
 
 <p align="center"><b>Have a tool, API, or product in mind?</b> <a href="mailto:work.aityriteshraj@gmail.com">Let's build it →</a></p>
 
